@@ -297,3 +297,87 @@ align-content: center;
         grid-column-start: 1;
         grid-column-end: 2;
     }
+.hamburger{
+    display: none;
+}
+
+@media (max-width:700px){
+
+    .hamburger{
+        display: block;
+        color: #ffffff;
+    }
+
+nav{
+    width: auto;
+    padding: 0 50px;
+    justify-content:space-between;
+}
+.list-items{
+    display: none;
+}
+main{
+    height: auto;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+}
+.main-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.main-image {
+    width: 100%;
+}
+
+
+.skills {
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 60vw;
+}
+.experience {
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+}
+.project-line{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+
+}
+.contact- left h1 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.contact-left p {
+    font-size: 10px;
+}
+
+.contact-btn {
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.info-list{
+display: none;
+
+}
